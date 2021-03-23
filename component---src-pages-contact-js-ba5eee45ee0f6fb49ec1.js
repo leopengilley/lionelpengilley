@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[501],{262:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return a}});var l=n(7294);function a(){return l.createElement("div",{className:"grid-item",id:"#contact"},l.createElement("div",{className:"content"},l.createElement("h1",null,"Contact"),l.createElement("p",null,"0406095375")))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-ba5eee45ee0f6fb49ec1.js.map
