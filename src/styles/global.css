@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: lavenderblush;
+}
+
+.container {
+  display: grid;
+  padding: 20px;
+  background: #fff;
+  grid-template-rows: 150px 85px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.grid-item {
+  background: #6cc5c7;
+  padding: 30px;
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
