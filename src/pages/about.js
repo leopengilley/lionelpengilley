@@ -5,7 +5,7 @@ import { withPrefix, Link } from "gatsby";
 
 import Github from "../images/github.jpg";
 import Linkedin from "../images/linkedin.jpg";
-import Email from "../images/email.png";
+import Email from "../images/email.jpg";
 
 export default function About() {
   return (
@@ -23,14 +23,14 @@ export default function About() {
             has equipped me with wide-ranging skills including working under pressure,
             within large teams, and creating products with the user experience in mind.
           </p>
-          <div class="social">
-            <a href="https://github.com/leopengilley" target="_blank">
+          <div class="socialBox">
+            <a class="socials" href="https://github.com/leopengilley" target="_blank">
               <img class="icon" src={ Github } alt="github link"/>
             </a>
-            <a href="https://www.linkedin.com/in/liopengilley/" target="_blank">
+            <a class="socials" href="https://www.linkedin.com/in/liopengilley/" target="_blank">
               <img class="icon" src={ Linkedin } alt="linkedin link"/>
             </a>
-            <button>
+            <button class="buttonEmail socials">
               <img class="icon emailButton" src={ Email } alt="email link"/>
             </button>
           </div>

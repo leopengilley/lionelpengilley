@@ -26,11 +26,6 @@ export default function Nav() {
               </div>
             </Link>
 
-            <Link to="#contact" smooth duration={1000}>
-              <div className='navItems'>
-                {'Contact'}
-                </div>
-            </Link>
           </div>
         </div>
       </div>

@@ -189,7 +189,7 @@ a:link {
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .button {
@@ -204,11 +204,37 @@ a:hover {
   color: blue;
 }
 
+.socialBox {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  margin-left: 1em;
+}
+
 .icon {
-  height: 30px;
-  width: 30px;
   border-radius: 1em;
-  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.buttonEmail {
+  display: flex;
+  background-color: white;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 600px) {

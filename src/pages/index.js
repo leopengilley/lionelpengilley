@@ -5,7 +5,6 @@ import Nav from './nav';
 import Title from './title';
 import About from './about';
 import Project from './project';
-import Contact from './contact';
 
 export default function Index() {
   return (
@@ -14,7 +13,6 @@ export default function Index() {
       <Title/>
       <About/>
       <Project/>
-      <Contact/>
     </Layout>
   )
 }
