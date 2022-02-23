@@ -32,6 +32,9 @@ export default function About() {
             </a>
             <button class="buttonEmail socials">
               <img class="icon emailButton" src={ Email } alt="email link"/>
+              <span class="emailAlert">
+                Email copied to clipboard!
+              </span>
             </button>
           </div>
         </div>

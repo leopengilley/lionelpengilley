@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 body {
   font-family: 'Cormorant', serif;
   font-size: 1.5rem;
   background-image: url("../images/mount.jpg");
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -26,7 +37,7 @@ p {
   align-items: center;
   background-color: #fff;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   top: 0;
 }
@@ -34,7 +45,7 @@ p {
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 900px;
+  width: 60%;
 }
 
 .title {
@@ -116,12 +127,23 @@ img .photo {
 .aboutDiv {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutDescription {
   margin-left: 30px;
   margin-top: 60px;
-  width: 600px;
+  width: 50%;
+}
+
+.emailAlert {
+  position: absolute;
+  transform: translate(0, 35px);
+  opacity: 0;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 1em;
 }
 
 .projectContainer {
@@ -134,8 +156,8 @@ img .photo {
 .projectBox {
   /* flex-basis: 40%; */
   background-color: lightgrey;
-  width: 80vw;
-  height: 45vh;
+  width: 80%;
+  height: 45%;
   padding: 20px;
   border-radius: 20px;
   margin: 0 25px;
@@ -232,15 +254,31 @@ a:hover {
   justify-content: center;
 }
 
-button:hover {
+.emailButton:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-@media screen and (max-width: 600px) {
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 400px) {
 
     body {
       background-image: none;
+      background-color: #F09A9D; /* Red */
     }
 
     .landingPage {
@@ -261,16 +299,47 @@ button:hover {
       margin-bottom: 0px;
     }
 
+    .menu {
+      height: 8%;
+    }
+
+    .navbar {
+      width: 90%;
+    }
+
     .navItems {
       font-size: 1.2rem;
     }
 
     .grid-item {
       width: 100%;
+
+    }
+
+    .aboutDiv {
+      flex-direction: column;
+    }
+
+    .photo {
+      margin-top: 5%;
+      height: 200px;
+      width: 200px;
+    }
+
+    .aboutDescription {
+      margin-left: 0;
+      margin-top: 5%;
+      width: 100%;
     }
 
     .projectBox {
       width: 100%;
+      margin: 5% 25px;
+    }
+
+    .projectContainer {
+      flex-direction: column;
+      align-items: center;
     }
 
     div.aboutDiv {

@@ -5,6 +5,9 @@ const button = document.querySelector('.emailButton');
 
 button.addEventListener('click', event => {
   writeToClipboard();
+
+  document.querySelector('.emailAlert').animate({
+    opacity: 1 }, 2000)
 });
 
 

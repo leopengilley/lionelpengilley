@@ -8,7 +8,7 @@ import Project from './project';
 
 export default function Index() {
   return (
-    <Layout>
+    <Layout class="page">
       <Nav/>
       <Title/>
       <About/>
