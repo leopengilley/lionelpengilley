@@ -72,10 +72,12 @@ p {
   margin: auto;
   /* background: #6cc5c7; */
   padding: 100px;
-  width: 80vw;
+  width: 100%;
   /* height: 108vh; */
   display: flex;
   flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -104,6 +106,7 @@ p {
 
 .links {
   display: flex;
+  flex: 50%;
   align-items: center;
   justify-content: space-around;
 }
@@ -139,7 +142,7 @@ img .photo {
 
 .emailAlert {
   position: absolute;
-  transform: translate(0, 35px);
+  transform: translate(0, 60px);
   opacity: 0;
   background-color: orange;
   padding: 5px;
@@ -147,20 +150,21 @@ img .photo {
 }
 
 .projectContainer {
-  width: 90vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
 }
 
 .projectBox {
   /* flex-basis: 40%; */
+  display: flex;
+  flex: 50%;
   background-color: lightgrey;
-  width: 80%;
-  height: 45%;
+  width: 20%;
   padding: 20px;
   border-radius: 20px;
   margin: 0 25px;
+  justify-content: center;
 }
 
 .projectBox p {
@@ -169,11 +173,7 @@ img .photo {
 
 .projectBox > img {
   width: 100%;
-}
 
-.projectBoxStart {
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 div.links.a {
@@ -198,14 +198,6 @@ div.links.a {
   flex-basis: auto;
 }
 
-.projectContent {
-  justify-content: flex-end;
-}
-
-.projectContent {
-  text-align: center;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -219,6 +211,8 @@ a:hover {
   background-color: white;
   border-radius: 2em;
   color: black;
+  width: 40%;
+  font-size: 1rem;
 }
 
 .primary {
@@ -228,16 +222,17 @@ a:hover {
 
 .socialBox {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 .socials {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  height: 3rem;
   width: 3rem;
   border-radius: 3rem;
-  margin-left: 1em;
 }
 
 .icon {
@@ -245,6 +240,7 @@ a:hover {
   height: 40px;
   width: 40px;
 }
+
 
 .buttonEmail {
   display: flex;
@@ -259,26 +255,44 @@ a:hover {
   opacity: 0.5;
 }
 
+@media only screen and (min-width: 401px) {
+
+}
+
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: #F5CF8E; /* Yellow */
+    background-color: #F5CF8E;
   }
+
+  .projectContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .projectBox {
+    flex: 100%;
+    margin-bottom: 5%;
+  }
+
+
+
+
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+/* @media only screen and (min-width: 961px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    background-color: #B2D6FF;
   }
-}
+} */
 
 /* Mobile Styles */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 325px) {
 
     body {
       background-image: none;
-      background-color: #F09A9D; /* Red */
     }
 
     .landingPage {
