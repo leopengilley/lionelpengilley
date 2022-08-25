@@ -18,7 +18,7 @@ export default function Project() {
             <p>Stack: JavaScript, HTML & CSS.</p>
             <div className="links">
               <a class="button primary" href="https://leopengilley.github.io/tictactoe/" target="_blank">
-              Play
+                Play
               </a>
               <a class="button" href="https://github.com/leopengilley/tictactoe" target="_blank">
                 GitHub
