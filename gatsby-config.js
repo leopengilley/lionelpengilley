@@ -13,7 +13,5 @@ module.exports = {
         pathToConfigMode: 'src/utils/typography'
       }
     }
-  ],
-  pathPrefix:
-      '/lionelpengilley',
+  ]
 }
