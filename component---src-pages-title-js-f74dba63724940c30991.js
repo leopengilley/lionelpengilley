@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[8],{3391:function(e,l,t){t.r(l),t.d(l,{default:function(){return a}});var n=t(7294);function a(){return n.createElement("div",{className:"grid-item landingPage",id:"#home"},n.createElement("div",{className:"landing"},n.createElement("h1",{class:"name"},"Lionel Pengilley"),n.createElement("p",null,"Junior Software Developer")))}}}]);
+//# sourceMappingURL=component---src-pages-title-js-f74dba63724940c30991.js.map

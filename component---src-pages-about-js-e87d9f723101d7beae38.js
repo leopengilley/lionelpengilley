@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[682],{5518:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return a}});var l=r(7294);function a(){return l.createElement("div",{className:"grid-item",id:"#about"},l.createElement("div",{className:"content"},l.createElement("h1",null,"About"),l.createElement("p",null,"I'm so great, hire me.")))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-e87d9f723101d7beae38.js.map
