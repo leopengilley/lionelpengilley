@@ -16,7 +16,7 @@ export default function About() {
       <div className='aboutDiv'>
         <div className='photo'></div>
         <div className='aboutDescription'>
-          <h1>Hi, I'm Leo.</h1>
+          <h1>Hi, I'm Lio.</h1>
           <p>
             I'm a Junior Software Engineer with a passion for creating and building
             meaningful products. My 6 years experience in the hospitality industry
