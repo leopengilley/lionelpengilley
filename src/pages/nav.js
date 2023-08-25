@@ -14,12 +14,6 @@ export default function Nav() {
           </div>
 
           <div class="groupedNav">
-            <Link to="#about" smooth duration={1000}>
-              <div className='navItems'>
-                {'About'}
-              </div>
-            </Link>
-
             <Link to="#projects" smooth duration={1000}>
               <div className='navItems'>
                 {'Projects'}
