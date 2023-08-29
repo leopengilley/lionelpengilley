@@ -14,10 +14,11 @@ export default function Title() {
         <div className='aboutDescription'>
           <h1>Hi, I'm Lio.</h1>
           <p>
-            I'm a Junior Cloud Engineer with a passion for creating and building
-            meaningful products. My 6 years experience in the hospitality industry
-            has equipped me with wide-ranging skills including working under pressure,
-            within large teams, and creating products with the user experience in mind.
+            I am a passionate and dedicated individual with a strong foundation
+            in web development and cloud technologies. My journey through roles
+            at FDM Group and General Assembly has not only equipped me with
+            technical expertise but also highlighted my commitment to excellence
+            and collaborative problem-solving. 
           </p>
           <div class="socialBox">
             <a class="socials" href="https://github.com/leopengilley" target="_blank">
