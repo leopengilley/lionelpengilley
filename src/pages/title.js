@@ -12,13 +12,12 @@ export default function Title() {
       <div className='aboutDiv'>
         <div className='photo'></div>
         <div className='aboutDescription'>
-          <h1>Hi, I'm Lio.</h1>
           <p>
             I am a passionate and dedicated individual with a strong foundation
             in web development and cloud technologies. My journey through roles
             at FDM Group and General Assembly has not only equipped me with
             technical expertise but also highlighted my commitment to excellence
-            and collaborative problem-solving. 
+            and collaborative problem-solving.
           </p>
           <div class="socialBox">
             <a class="socials" href="https://github.com/leopengilley" target="_blank">
