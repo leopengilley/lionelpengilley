@@ -1,4 +1,8 @@
 import React from 'react';
+
+import Helmet from "react-helmet";
+import { withPrefix, Link } from "gatsby";
+
 import Github from "../images/github.jpg";
 import Linkedin from "../images/linkedin.jpg";
 import Email from "../images/email.jpg";
@@ -9,6 +13,9 @@ export default function Title() {
       <div className='landing'>
         <h1 class="name">About me</h1>
       </div>
+      <Helmet>
+        <script src={withPrefix('script.js')} type="text/javascript" />
+      </Helmet>
       <div className='aboutDiv'>
         <div className='photo'></div>
         <div className='aboutDescription'>
