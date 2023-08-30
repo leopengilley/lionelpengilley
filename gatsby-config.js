@@ -10,7 +10,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigMode: 'src/utils/typography'
+        pathToConfigMode: 'src/utils/typography',
+        icon: 'src/images/favicon.png'
       }
     }
   ]

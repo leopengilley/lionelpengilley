@@ -87,12 +87,24 @@ p {
 
 .landing {
   color: white!important;
-  padding-top: 150px;
+  padding-top: 0;
   width: 100%;
   height: 40vh;
   text-align: center;
   background-image: url("../images/green.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  border-bottom: 2px solid lightgreen;
+  margin-bottom: 0px;
+  width: 20%;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
 .name {
@@ -182,6 +194,11 @@ img .photo {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.projTitle {
+  font-size: 3rem;
+  border-bottom: 2px solid lightgreen;
 }
 
 .projectBox {
@@ -286,6 +303,7 @@ a:hover {
     padding-bottom: 5px;
     border-bottom: 2px solid lightgreen;
     color: darkblue;
+    font-size: 2rem;
   }
 
   .projectContainer {
@@ -377,6 +395,7 @@ a:hover {
       padding-bottom: 5px;
       border-bottom: 2px solid lightgreen;
       color: darkblue;
+      font-size: 2rem;
     }
 
     .projectBox {
@@ -471,6 +490,7 @@ a:hover {
       padding-bottom: 5px;
       border-bottom: 2px solid lightgreen;
       color: darkblue;
+      font-size: 2rem;
     }
 
     .projectBox {
