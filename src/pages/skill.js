@@ -15,7 +15,7 @@ import Html5 from "../images/html5-color.svg";
 
 export default function Skill() {
   return (
-    <div className='grid-item' id='#projects'>
+    <div className='grid-item' id='#skills'>
 
         <div className='projTitle'>
           <h1>Skills</h1>
