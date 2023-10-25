@@ -75,10 +75,11 @@ p {
   margin: auto;
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   min-height: 100vh;
 }
@@ -197,7 +198,20 @@ img .photo {
 }
 
 .projTitle {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projTitle h1 {
+  margin-top: 16%;
+  padding-bottom: 5px;
+  color: darkblue;
   font-size: 3rem;
+  text-align: center;
+  align-items: center;
   border-bottom: 2px solid lightgreen;
 }
 
@@ -211,6 +225,8 @@ img .photo {
   margin: 0 25px;
   justify-content: center;
   box-shadow: 0 0 20px #ccc;
+  flex-direction: column;
+  flex-basis: auto;
 }
 
 .projectBox p {
@@ -219,19 +235,12 @@ img .photo {
 
 .projectBox > img {
   width: 100%;
-
 }
 
 div.links.a {
   margin-right: 10px;
 }
 
-.projectBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: auto;
-}
 
 a:link {
   text-decoration: none;
@@ -259,7 +268,11 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+.skillsLogo {
+  height: 50px;
+  padding: 0 10px;
 }
 
 /* Media Queries */
@@ -301,7 +314,6 @@ a:hover {
     margin-top: 16%;
     align-items: center;
     padding-bottom: 5px;
-    border-bottom: 2px solid lightgreen;
     color: darkblue;
     font-size: 2rem;
   }
@@ -393,7 +405,6 @@ a:hover {
       margin-top: 16%;
       align-items: center;
       padding-bottom: 5px;
-      border-bottom: 2px solid lightgreen;
       color: darkblue;
       font-size: 2rem;
     }
@@ -488,7 +499,6 @@ a:hover {
       margin-top: 16%;
       align-items: center;
       padding-bottom: 5px;
-      border-bottom: 2px solid lightgreen;
       color: darkblue;
       font-size: 2rem;
     }

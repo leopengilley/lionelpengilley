@@ -8,6 +8,12 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "src/images/favicon.png"
+      }
+    },
+    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigMode: 'src/utils/typography',

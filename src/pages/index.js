@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Nav from './nav';
 import Title from './title';
 import Project from './project';
+import Skill from './skill';
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
       <Nav/>
       <Title/>
       <Project/>
+      <Skill/>
     </Layout>
   )
 }
